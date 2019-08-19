@@ -1,4 +1,4 @@
-.container {
+    .container {
     width: 1280px;
     margin: 0 auto;
 }
@@ -113,10 +113,12 @@
     float: right;
     display: block;
     background-color: #445161;
+    width: 430px;
+    height: 245px;
 }
 
 .dignity-pluses-product {
-margin: 70px 0 0 0;
+    margin: 70px 0 0 0;
 }
 
 .dignity-pluses-product-header {
@@ -134,10 +136,11 @@ margin: 70px 0 0 0;
 }
 
 .dignity-pluses-product-list-item {
-    margin: 0 0 35px 0;
+    margin: 0 5px 35px 0;
     position: relative;
-    width: 526px;
+    width: 580px;
 }
+
 .dignity-pluses-product-list-item:before {
     content: "";
     display: block;
@@ -147,4 +150,4 @@ margin: 70px 0 0 0;
     background-size: cover;
     position: absolute;
     top: 3px;
-    left: -40px
+    left: -38px
